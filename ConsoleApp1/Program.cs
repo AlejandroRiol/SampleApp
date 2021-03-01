@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {                       //0         //1         //2
-            string[] cases = { "progress", "closed", "completed", "string", "another", "final"};
+            string[] cases = { "progress", "closed", "completed", "string", "another"};
             Console.WriteLine(cases[0] + " " + cases[1] + " " + cases[2]);
 
             Random rand = new Random();
